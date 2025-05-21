@@ -10,6 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/grhicon.png" type="image/png" />
+      </head>
       <body>
       <Provider>
         <Flex direction="column" align="center" minH="auto" py={{ base: 12, md: 24 }}>
